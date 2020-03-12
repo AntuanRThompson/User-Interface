@@ -72,10 +72,21 @@ a,
   text-decoration: none;
   color: grey;
   display: inline-block;
-  text-align: justify;
   margin-left: 30px;
 }
 
+.nav-section {
+  border: 1px solid black;
+  padding: 1.5%;
+  background-color: skyblue;
+  position: fixed;
+  top: 0;
+  bottom-border: 1px solid black;
+}
+nav,
+a:hover {
+  color: white;
+}
 .logo {
   color: black;
 }
@@ -109,12 +120,7 @@ h1 {
   font-size: 18px;
   margin-left: 170px;
 }
-.nav-section {
-  bottom-border: 1px solid black;
-  position: fixed;
-  top: 0;
-  }
-}
+
 .FeatAbout {
   padding-top: 5%;
   border-top: 1px solid black;
