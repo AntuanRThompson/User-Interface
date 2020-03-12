@@ -111,6 +111,9 @@ h1 {
 }
 .nav-section {
   bottom-border: 1px solid black;
+  position: fixed;
+  top: 0;
+  }
 }
 .FeatAbout {
   padding-top: 5%;
